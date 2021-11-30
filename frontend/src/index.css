@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  min-height: 80vh;
+}
+a {
+  text-decoration: none;
+}
+.navbar-light .navbar-toggler-icon {
+  background-color: white;
+}
+.cart_login > * {
+  color: white;
+  margin-left: 1.3rem;
+}
+.cart_login > *:hover {
+  color: white;
+}
+/* login page */
+.login_container {
+  color: #fff;
+  width: 40%;
+  margin: 1rem auto;
+}
+.logoin_wraper {
+  border-radius: 0.2rem;
+  text-align: center;
+  background: #000232;
+  padding: 1rem;
+}
+.login_container .logoin_wraper img {
+  border-radius: 50%;
+  width: 35%;
+}
+.logoin_wraper h3 {
+  color: white;
+  margin: 0.6rem 0;
+}
+.login_input_box {
+  display: flex;
+  flex-direction: column;
+}
+.login_input_box input {
+  margin: 0.5rem 0;
+  position: relative;
+  border-bottom: 1px solid white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: #000232;
+  outline: none;
+  color: white;
+}
+.login_input_box input::placeholder {
+  color: white;
+}
+.logoin_wraper button {
+  width: 100%;
+  background-color: #b689b0;
+  padding: 0.4rem 0rem;
+  color: #fff;
+  border: none;
+  outline: none;
+  letter-spacing: 0.3rem;
+  font-weight: bold;
+  margin: 0.4rem 0;
+}
+
+.logoin_wraper .sign_UP {
+  padding: 0.4rem 0rem;
+  color: #b689b0;
+  cursor: pointer;
+  background-color: #b689b0;
+  color: white;
+}
+
+/* footer */
+.footer_wraper {
+  background-color: #000232;
+  color: white;
+  min-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 250px));
+  grid-gap: 0.5rem;
+  padding: 1rem;
+}
+.about {
+  color: white;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid white;
+  max-width: max-content;
+}
+.information {
+  color: white;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid white;
+  max-width: max-content;
+}
+.instagram {
+  color: white;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid white;
+  max-width: max-content;
+}
+.instagram_image {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0.3rem;
+}
+.detail_user i {
+  padding: 0 0.6rem;
+}
+.info_data i {
+  padding: 0 0.6rem 0 0;
+  cursor: pointer;
+}
+.info_data {
+  cursor: pointer;
+}
+.info_data:hover {
+  margin-left: 0.3rem;
+  transition: all 0.4s;
+  color: #b689b0;
+}
+@media (max-width: 998px) {
+  .login_container {
+    width: 100%;
+  }
+
+  .instagram_image {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.3rem;
+  }
+}
